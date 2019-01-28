@@ -2,6 +2,12 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+inwsl=$(grep Microsoft /proc/version)
+
+if [ ! -z "$inwsl" ]; then
+    cd /mnt/c/Users/mjmau/Documents/code
+fi
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

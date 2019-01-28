@@ -311,3 +311,120 @@ ls
 sudo mv linusISdumb.sh windows.sh
 cd ~
 windows.sh
+cd ~
+ls
+la
+rm *
+rm .*
+ls
+la
+mkdir code
+ls
+rm -r code/
+ls
+mkdir dotfiles
+cd dotfiles/
+ls
+git clone https://github.com/mjmaurer/dot.git
+ls
+la
+cp -r dot/ ~
+ls
+cd ..
+ls
+rm -r dotfiles/
+y
+ls
+cd dot/
+ls
+git status
+la
+cd ..
+ln -s ~/dot/.bashrc ~/.bashrc
+ln -s ~/dot/.profile ~/.profile
+ln -s ~/dot/.bash_logout ~/.bash_logout
+ln -s ~/dot/.bash_history ~/.bash_history
+ln -s ~/dot/.bash_profile ~/.bash_profile
+la
+ls -al
+la
+cat ~/.bashrc
+l
+cat ~/.profile
+$PATH
+uname
+uname -s
+uname -a
+cat /proc/version
+rtas=true
+if $rtas ; then echo 'yo' fi; ;
+cat ~/.bashrc
+cat ~/.profile
+if $rtas ; then echo 'yo' fi; ;
+if $rtas ; then echo 'yo'; fi;
+asd="$(< /proc/version)" == *@(Microsoft|WSL)*
+asd=["$(< /proc/version)" == *@(Microsoft|WSL)*]
+grep
+asdf=grep -qE "(Microsoft|WSL)" /proc/version &> /dev/null
+asdf
+$asdf
+/dev/null
+sudo /dev/null
+sudo cat /dev/null
+[ grep -q Microsoft /proc/version ] ; b=$;
+[ grep -q Microsoft /proc/version;] ; b=$;
+[ grep -q Microsoft /proc/version ] ; b=$;
+[ "grep -q Microsoft /proc/version" ] ; b=$;
+b
+if $b ; then echo 'yo'; fi;
+$b
+$rtas
+[ "grep -q Microsoft /proc/version" ] || basd=1
+$basd
+if $basd ; then echo 'yo'; fi;
+[ "grep -q Microsasdft /proc/version" ] || basd=1
+if $basd ; then echo 'yo'; fi;
+[ "grep -q Microsasdft /proc/version" ] || basdad=1
+if $basdad ; then echo 'yo'; fi;
+grep -q micor /proc/version
+result=$(grep -q Microsoft /proc/version)
+$result
+result=$(grep -q "Microsoft" /proc/version)
+$result
+grep -q "Microsoft" /proc/version
+cat /proc/version
+grep -q "*Microsoft*" /proc/version
+grep -q ".*Microsoft.*" /proc/version
+grep --help
+result=$(grep Microsoft /proc/version)
+$result
+grep Microsoft /proc/version
+result=$(grep Microsoftsd /proc/version)
+$result
+result=$(grep Microsoft /proc/version)
+if $result ; then echo 'yo'; fi;
+result=$(grep -c Microsoft /proc/version)
+if $result ; then echo 'yo'; fi;
+if $result > 0; then echo 'yo'; fi;
+-z $result
+[ -z $result ]
+result=$(grep Maicrosoft /proc/version)
+[ -z $result ]
+if [ -z "$result" ] ; then echo 'yo'; fi;
+result=$(grep Microsoft /proc/version)
+if [ -z "$result" ] ; then echo 'yo'; fi;
+if [ ! -z "$result" ] ; then echo 'yo'; fi;
+vim
+vim ~/dot/.bashrc
+$result
+gsaa=$(! -z "$result")
+gsaa=[! -z "$result"]
+gsaa=$[! -z "$result"]
+vim ~/dot/.bashrc
+cd /mnt/c/Users/
+ls
+cd mjmau/
+ls
+cd Documents/
+cd code/
+vim ~/dot/.bashrc
