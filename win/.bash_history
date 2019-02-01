@@ -428,3 +428,12 @@ ls
 cd Documents/
 cd code/
 vim ~/dot/.bashrc
+cd ~/dot
+git status
+git add --all
+git commit -a -m "wsl check"
+git config --global user.email "mjmaurer777@gmail.com"
+git config --global user.name "Michael Maurer"
+git commit -a -m "wsl check"
+git push origin master
+python
