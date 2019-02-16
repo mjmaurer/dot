@@ -437,3 +437,57 @@ git config --global user.name "Michael Maurer"
 git commit -a -m "wsl check"
 git push origin master
 python
+ls
+$HOME
+la $HOME
+ls $HOME
+ls -a $HOME
+la /home
+ls /home
+ls /home/mjmaurer7
+ls -a /home/mjmaurer7
+cat /home/mjmaurer7/.viminfo
+sudo cat /home/mjmaurer7/.viminfo
+cd $HOME
+ls
+git
+git clone https://github.com/mjmaurer/dot.git
+cd dot
+la
+ls -a
+cd win
+ls
+ls -a
+cat .bash_history 
+cd ~
+ls -a dot
+ls -a dot/win
+ln -s -f ~/dot/.bash_logout ~/.bash_logout
+ln -s -f ~/dot/.bash_profile ~/.bash_profile
+ln -s -f ~/dot/.bashrc ~/.bashrc
+ln -s -f ~/dot/.profile ~/.profile
+ln -s -f ~/dot/win/.bash_history ~/.bash_history
+ls -a /home/mjmaurer7
+cp /home/mjmaurer7/.sudo_as_admin_successful ~
+cp /home/mjmaurer7/.viminfo ~
+sudo cp /home/mjmaurer7/.viminfo ~
+la
+ls -a
+ls
+la
+vim ~/dot/.bashrc
+source ~/.bashrc
+pip
+git status ~/dot
+cd ~/dot
+la
+git status
+git add --all
+git status
+git add --all
+git status
+git add win/.bash_history 
+git status
+git commit -a -m "elevate pip"
+git config --global user.email "mjmaurer777@gmail.com"
+git config --global user.name "Michael Maurer"
