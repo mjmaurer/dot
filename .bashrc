@@ -4,9 +4,9 @@
 
 inwsl=$(grep Microsoft /proc/version)
 
-if [ ! -z "$inwsl" ]; then
+# if [ ! -z "$inwsl" ]; then
 #    cd /mnt/c/Users/mjmau/Documents/code
-fi
+# fi
 
 cd $HOME/Documents/code
 

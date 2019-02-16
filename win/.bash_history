@@ -1,25 +1,3 @@
-df
-df /boot/efi
-ls /media/mjmaurer7/UBUNTU\ 18_0/
-ls /media/mjmaurer7/UBUNTU\ 18_0/ubuntu 
-ls /media/mjmaurer7/UBUNTU\ 18_0/ubuntu
-cat /media/mjmaurer7/UBUNTU\ 18_0/ubuntu
-mount /dev/sda1 /boot/efi
-sudo mount /dev/sda1 /boot/efi
-df
-ls /boot/efi
-ls /boot/efi/
-sudo rm /dev/sdb1
-df
-sudo mount /dev/sda1 /boot/efi
-efibootmgr
-efibootmgr 1
-efibootmgr -B -b 1
-sudo efibootmgr -B -b 1
-df
-apt-get install --reinstall grub-efi
-sudo apt-get install --reinstall grub-efi
-grub-install /dev/sda
 sudo grub-install /dev/sda1
 ls
 ls /boot/efi
@@ -518,3 +496,5 @@ git commit -a -m "new home new me"
 git push origin master
 sudo vim ~/.profile
 git add --all
+git commit -a -m "virtualenvwrapper exports"
+git push origin master
