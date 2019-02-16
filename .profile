@@ -10,6 +10,11 @@
 
 PATH="$HOME/Documents/code/refind:$PATH"
 
+# virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Documents/code/python
+. "/usr/local/bin/virtualenvwrapper.sh"
+
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists

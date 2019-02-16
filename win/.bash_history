@@ -514,3 +514,7 @@ sudo vim ~/.profile
 sudo vim ~/.bashrc
 cd dot
 git add --all
+git commit -a -m "new home new me"
+git push origin master
+sudo vim ~/.profile
+git add --all
