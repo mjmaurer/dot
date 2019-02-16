@@ -491,3 +491,5 @@ git status
 git commit -a -m "elevate pip"
 git config --global user.email "mjmaurer777@gmail.com"
 git config --global user.name "Michael Maurer"
+git checkout -- win/.bash_history
+git status
