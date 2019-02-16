@@ -5,8 +5,10 @@
 inwsl=$(grep Microsoft /proc/version)
 
 if [ ! -z "$inwsl" ]; then
-    cd /mnt/c/Users/mjmau/Documents/code
+#    cd /mnt/c/Users/mjmau/Documents/code
 fi
+
+cd $HOME/Documents/code
 
 # If not running interactively, don't do anything
 case $- in

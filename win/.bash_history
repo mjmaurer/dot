@@ -493,3 +493,24 @@ git config --global user.email "mjmaurer777@gmail.com"
 git config --global user.name "Michael Maurer"
 git checkout -- win/.bash_history
 git status
+git commit -a -m .
+git status
+cd ..
+python
+sudo apt-get update
+python
+sudo apt remove python3
+python
+python3
+sudo apt-get remove 'python3.*'
+python3
+spython
+python
+sudo apt-get install pip
+sudo apt-get install python-pip
+python
+sudo pip install virtualenvwrapper
+sudo vim ~/.profile
+sudo vim ~/.bashrc
+cd dot
+git add --all
