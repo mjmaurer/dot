@@ -1,9 +1,3 @@
-sudo grub-install /dev/sda1
-ls
-ls /boot/efi
-ls /boot/efi/EFI
-ls
-update-grub
 sudo update-grub
 sudo efibootmgr -v
 df
@@ -498,3 +492,118 @@ sudo vim ~/.profile
 git add --all
 git commit -a -m "virtualenvwrapper exports"
 git push origin master
+cd ~
+vim ~/.bashrc
+cd dot
+git add --all
+git commit -a -m "fix bashrc"
+git push origin master
+workon
+cd python/
+workon
+ls
+cd pedal/
+ls
+workon
+nvim
+sudo apt-get install neovim
+neovim
+echo $PROJECT_HOME
+cd ..
+mkvirtualenv temp
+ls
+la
+deactivate
+ls
+workon
+rm -r ~/.virtualenvs/temp
+workon
+mkproject deals
+deactivate
+cd ../pedal/
+ls
+la
+cat .gitignore 
+cp * ../deals
+cp -r __pycache__ ../deals
+cd ..
+workon deals
+ls
+git status
+la
+cd ../pedal/
+ls
+la
+cp .git ../deals
+cp -r .git ../deals
+cp -r .gitignore ../deals
+cd ../deals/
+git status
+git diff
+git add --all
+git commit -a -m "add synth deals"
+python pedal.py 
+ls
+pip install -r requirements.txt 
+pip freeze
+vim ~/.bashrc
+source ~/.bashrc
+workon deals
+ls
+pip
+pip freeze
+workon deals
+pip freeze
+pip install -r requirements.txt 
+pip freeze
+cat requirements.txt 
+sudo pip freeze
+pip install certifi
+pip freeze
+python --version
+cat requirements.txt 
+pip install certifi
+pip install chardet
+pip install idna
+pip install pkg-resources
+pip install praw
+cat requirements.txt 
+pip install prawcore
+pip install requests
+pip install six
+pip install urllib3
+python pedal.py 
+git status
+vim .gitignore 
+git status
+git commit -a -m "pyc ignore"
+git status
+echo $VIRTUAL_ENV
+cat /mnt/c/Users/mjmau/.virtualenvs/deals/bin/postactivate 
+vim constants.py
+la ~
+ln -s -f ~/dot/.vimrc ~/.vimrc
+vim constants.py
+cat ~/.vimrc
+mkdir ~/dot/.vim
+ln -s ~/.vim ~/dot/.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/dot/.vim/bundle/Vundle.vim
+la ~/.vim
+ln -s ~/.vim ~/dot/.vim
+la ~/dot
+la ~/dot/.vim
+ln -s ~/.vim ~/dot/.vim
+la -l ~/dot/.vim
+unlink ~/dot/.vim/.vim
+la -l ~/dot/.vim
+la ~
+la -l ~
+ln -s ~/dot/.vim ~/.vim
+la ~
+la -l ~
+la ~/.vim
+vim ~/.vimrc
+cd ~/dot
+git status
+git add --all
+git status
