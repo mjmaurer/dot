@@ -1516,3 +1516,49 @@ source ~/.profile
 cd ~/dot
 git status
 git add --all
+git commit -a -m "just remove prompt because im lazy"
+git push origin master
+ls
+echo $LS_COLORS 
+cat ~/.bashrc | grep LS
+cat ~/.bashrc | grep LS_COLORS
+cat ~/.profile | grep LS_COLORS
+cat ~/.bash_profile | grep LS_COLORS
+la ~/
+LS_COLORS=$LS_COLORS:'di=0;97;44:'
+ls
+export LS_COLORS=$LS_COLORS:'di=0;97;44:'
+ls
+LS_COLORS=$LS_COLORS:'di=0;97;44:'
+export LS_COLORS
+ls
+echo $LS_COLORS
+cat /etc/DIR_COLORS
+LS_COLORS='di=0;97;44:'
+export LS_COLORS
+ls
+ls --color='di=0;97;44'
+vim ~/.bashrc
+source ~/.bashrc
+ls
+cd ~/dot
+ls
+cd win
+ls
+cd wsltty
+cd ../wsltty/
+ls
+cd config
+cd lang
+ls
+vim ~/.bashrc
+source ~/.bashrc
+ls
+cd java
+ls
+cd tws
+ls
+cd ~/dot
+ls
+git status
+git add --all
