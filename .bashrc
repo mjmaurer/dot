@@ -14,6 +14,11 @@ cd $HOME/Documents/code
 alias ebrc='vim ~/.bashrc'
 alias ep='vim ~/.profile'
 
+# history aliases
+alias hiw='cat ~/dot/win/.bash_history'
+alias hil='cat ~/dot/lin/.bash_history'
+alias hig='cat ~/dot/win/.bash_history ~/dot/lin/.bash_history | grep'
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

@@ -1569,3 +1569,23 @@ source ~/.bashrc
 ebrc
 cd ~/dot
 git add --all
+git commit -a -m "convenience edit configs"
+cat ~/.profile
+ebrc
+cat ~/dot/win/.bash_history 
+ebrc
+source ~/.bashrc
+hig
+hiw
+hig
+hil
+cd ~/dot
+ls
+mkdir lin
+echo "first" >> lin/.bash_history
+ls
+hig
+hig first
+git status
+git add --all
+git status
