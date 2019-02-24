@@ -1562,3 +1562,10 @@ cd ~/dot
 ls
 git status
 git add --all
+git commit -a -m "change ls colors"
+vim ~/.bashrc
+ep
+source ~/.bashrc
+ebrc
+cd ~/dot
+git add --all

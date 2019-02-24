@@ -10,6 +10,10 @@ inwsl=$(grep Microsoft /proc/version)
 
 cd $HOME/Documents/code
 
+# convenience aliases
+alias ebrc='vim ~/.bashrc'
+alias ep='vim ~/.profile'
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
