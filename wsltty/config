@@ -1,5 +1,5 @@
 # To use common configuration in %APPDATA%\mintty, simply remove this file
-ThemeFile=glight.minttyrc
+ThemeFile=solar.minttyrc
 Transparency=low
 OpaqueWhenFocused=no
 BackgroundColour=192,192,192
