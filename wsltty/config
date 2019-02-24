@@ -1,0 +1,12 @@
+# To use common configuration in %APPDATA%\mintty, simply remove this file
+ThemeFile=glight.minttyrc
+Transparency=low
+OpaqueWhenFocused=no
+BackgroundColour=192,192,192
+ForegroundColour=0,0,0
+Term=xterm
+BellType=0
+BoldAsFont=no
+Columns=104
+Rows=62
+FontHeight=10

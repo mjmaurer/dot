@@ -15,6 +15,10 @@ export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Documents/code/python
 . "/usr/local/bin/virtualenvwrapper.sh"
 
+# default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists

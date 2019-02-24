@@ -607,3 +607,217 @@ cd ~/dot
 git status
 git add --all
 git status
+git commit -a -m "vundle + vimrc"
+git push origin master
+workon deals
+vim /mnt/c/Users/mjmau/.virtualenvs/deals/bin/postactivate 
+deactivate
+echo $GMAIL_USER
+workon deals
+echo $GMAIL_USER
+deactivate
+echo $GMAIL_USER
+workon deals
+vim constants.py
+deactivate
+cd ../..
+mkdir autohotkey
+cd autohotkey/
+vim remap.ahk
+workon deals
+vim constants.py
+workon deals
+vim constants.py
+git status
+vim .gitignore
+git status
+git commit -a -m "add env constants"
+git status
+git add --all
+git commit -a -m "add env constants 2"
+git status
+python pedal.py 
+deactivate
+heroku
+sudo apt-get install --classic heroku
+sudo snap install --classic heroku
+sudo apt-get install snap
+sudo snap install --classic heroku
+snap
+curl https://cli-assets.heroku.com/install.sh | sh\
+curl https://cli-assets.heroku.com/install.sh | sh
+sudo curl https://cli-assets.heroku.com/install.sh | sh
+heroku --version
+heroku login
+cd python/deals/
+git remote -v
+git status
+heroku apps:rename musicdeals
+git remote add github https://github.com/mjmaurer/musicdeals.git
+git config -e
+select-editor
+git config -e
+vim ~/.profile
+source ~/.profile
+cd python/deals/
+git config -e
+git status
+git push origin master
+workon deals
+vim requirements.txt 
+python --version
+cat runtime.txt 
+vim runtime.txt 
+git status
+git commit -a -m "change python runtime"
+git status
+git push origin master
+cat /mnt/c/Users/mjmau/.virtualenvs/deals/bin/postactivate 
+heroku config::set GMAIL_USER=7reruamjm@gmail.com
+heroku config:set GMAIL_USER=7reruamjm@gmail.com
+heroku config:set GMAIL_PASS=poohey212g
+heroku config:set PEDALS_ID=i37KGiIxdYxfoA
+heroku config:set PEDALS_SECRET=OXpcD8KvN_h72o1GNAXEZl4nYoQ
+heroku config:set GMAIL_TARGET=8597576028@msg.fi.google.com
+heroku ps
+heroku ps:scale worker=1
+heroku
+heroku ps
+ls
+vim Procfile
+ls
+git status
+git add --all
+git status
+git commit -a -m "procfile"
+git push origin master
+heroku ps:scale worker=1
+vim pedal.py 
+workon deals
+vim pedal.py 
+python pedal.py 
+vim pedal.py 
+python pedal.py 
+vim pedal.py 
+python pedal.py 
+vim pedal.py 
+python pedal.py 
+vim pedal.py 
+python pedal.py 
+vim pedal.py 
+python pedal.py 
+git status
+git commit -a -m "handle title errors and add timestamp gate"
+git push origin master
+vim pedal.py 
+python pedal.py 
+vim pedal.py 
+python pedal.py 
+git commit -a -m "remove time gate. dont think its needed"
+git push origin master
+deactivate
+cd ../../java/
+ls
+git status
+cd tws
+git status
+vim .gitignore
+git status
+git add --all
+git status
+git commit -a -m "remove even more shit and ignore some"
+git push origin master
+git rm --cached *
+git rm -r --cached *
+git status
+git add --all
+git commit -a -m "remove ignored shit"
+git push origin master
+git rm -r --cached *
+vim .gitignore
+git rm -r --cached *
+vim .gitignore
+git rm -r --cached *
+vim .gitignore
+git rm -r --cached bin
+git rm -r --cached .idea
+git add --all
+git commit -a -m "ignore idea"
+git status
+git push origin master
+rm -r *DS_STORE*
+rm -r */*DS_STORE*
+rm -r *\\*DS_STORE*
+find . -name '.DS_Store' -type f -delete
+git status
+git add --all
+git commit -a -m "remove dsstore"
+git push origin master
+git
+la
+echo $APPDATA
+ls $APPDATA
+ls %APPDATA%
+ls %APPDATA
+ls $APPDATA
+ls
+ls ~
+cat ~/dot/win/.bash_history | grep efi
+cat ~/dot/win/.bash_history | grep sudo
+ls /
+ls /home/
+ls /home/mjmaurer7/
+ls
+ls /home/mjmaurer7/
+la /home/mjmaurer7/
+la /home/
+la /usr
+la /mnt
+la /mnt/c
+la /mnt/c/Users/
+la /mnt/c/Users/mjmau/
+la /mnt/c/Users/mjmau/AppData
+la /mnt/c/Users/mjmau/AppData/Roaming/
+la /mnt/c/Users/mjmau/AppData/Roaming/wsltty
+echo $APPDATA
+la /mnt/c/Users/mjmau/AppData/Roaming/wsltty
+la /mnt/c/Users/mjmau/AppData/Roaming/wsltty/lang
+vim ~/.bashrc
+la /mnt/c/Users/mjmau/AppData/Roaming/wsltty
+cp -r /mnt/c/Users/mjmau/AppData/Roaming/wsltty ~/dot
+ls ~/dot
+source ~/.bashrc
+vim ~/.bash
+vim ~/.bashrc
+source ~/.bashrc
+vim ~/.bashrc
+ls ~/dot/wsltty/
+ls ~/dot/wsltty/themes/
+cat ~/dot/wsltty/config 
+cat ~/dot/wsltty/themes/
+vim ~/dot/wsltty/themes/basic.minttyrc
+ls ~/dot/wsltty/themes/
+cat ~/dot/wsltty/themes/basic.minttyrc 
+cd ~/dot/wsltty/
+la
+cd themes/
+la
+cd ../
+cat config 
+cat ~/dot/wsltty/config 
+cat ~/dot/win/.bash_history | grep
+cat ~/dot/win/.bash_history | grep 
+ls
+nvim
+vim
+vim ~/dot/wsltty/themes/glight.minttyrc
+ls
+cat ~/dot/wsltty/
+cat ~/dot/wsltty/themes/glight.minttyrc 
+vim ~/dot/wsltty/themes/bluish.minttyrc
+vim ~/.bashrc 
+source ~/.bashrc
+cd ~/dot
+git status
+ls
+git add --all
