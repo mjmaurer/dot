@@ -12,6 +12,9 @@ if [[ $HOSTNAME != *"google"* ]]; then
   cd $HOME/Documents/code
 fi
 
+# bash prompt
+export PS1="\w\\$ "
+
 # convenience aliases
 alias ebrc='vim ~/.bashrc'
 alias ep='vim ~/.profile'
