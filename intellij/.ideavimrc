@@ -1,0 +1,6 @@
+source ~/dot/.vimrc
+
+nunmap J
+nunmap K
+nmap J gT
+nmap K gt

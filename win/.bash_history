@@ -1589,3 +1589,97 @@ hig first
 git status
 git add --all
 git status
+git commit -a -m "weve got history"
+git push origin master
+ls
+cd java/tws/
+ls
+git status
+git add --all
+git commit -a -m "new jar"
+git push origin master
+cd ../../python/
+sl
+ls
+cd pedal
+ls
+workon pedals
+workon pedal
+workon
+workon deals
+ls
+python pedal.py 
+vim pedal.py 
+python pedal.py 
+vim pedal.py 
+python pedal.py 
+vim pedal.py 
+python pedal.py 
+git status
+git add --all
+git commit -a -m "timestamp"
+git push origin master
+vim
+workon deals
+vim pedal.py 
+deactivate
+cd ../..
+la
+la ~
+la ~/dot
+vim ~/.vimrc
+cd java/tws
+ls
+git status
+git add --all
+git commit -a -m "add more logging around page request"
+git push origin master
+la ~
+cd ~/.IdeaIC2018.3/
+la
+cd config
+la
+cd plugins
+la
+cd IdeaVim
+la
+cd lib
+la
+cd ../../..
+la
+cd options
+la
+cd ..
+la
+hig ln
+ln -s -f ~/dotfiles/.ideavimrc ~/.ideavimrc
+cd ..
+la
+cd dot
+ls
+la
+mkdir intellij
+cd intellij
+vim .ideavimrc
+ln -s -f ~/dot/intellij/.ideavimrc ~/.ideavimrc
+cd ~
+la
+cat .ideavimrc 
+vim .ideavimrc 
+la
+rm .ideavimrc 
+la
+cat .ideavimrc 
+rm .ideavimrc 
+vim .ideavimrc 
+vim .vimrc
+vim .ideavimrc
+vim .profile
+vim .bashrc
+vim .ideavimrc 
+vim .ideavimrc
+vim .vimrc
+cd dot
+ls
+git status
+git add --all
