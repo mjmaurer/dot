@@ -1683,3 +1683,91 @@ cd dot
 ls
 git status
 git add --all
+git commit -a -m "intellij bindings"
+git push origin master
+git pull
+git status
+git push origin master
+cd ~/Documents/code
+ls
+cd java/code
+ls
+cd java
+ls
+cd tws
+git status
+git checkout --orphan oldVersion
+git status
+git rm --cached -r
+git rm --cached -r .
+git status
+ls
+git fetch remote https://github.com/mjmaurer/tws-auto-invest.git master
+git fetch remote https://github.com/mjmaurer/tws-auto-invest.git
+git remote add old https://github.com/mjmaurer/tws-auto-invest.git
+git fetch remote old
+git fetch old master
+git status
+git merge eec4e005dc6495d9e96c29c67f6a13070eb08ce3
+git clean -d -f .
+git status
+git merge eec4e005dc6495d9e96c29c67f6a13070eb08ce3
+git clean -d -f .*
+git status
+git clean -d -f .idea/
+git clean -d -f bin/
+git status
+git clean -d -f bin/
+git status
+git merge eec4e005dc6495d9e96c29c67f6a13070eb08ce3
+git status
+ls
+cd source
+ls
+cd JavaCl
+cd JavaClient/
+ls
+cd com
+ls
+cd tws
+ls
+cd parser
+ls
+cat HtmlParserV1.java 
+cd ../request/
+cat AuthenticatedRequest.java 
+ls /
+ls /tmp
+ls ~/Downloads/tmp
+sudo ln -s ~/Downloads/tmp /t
+ls /t
+vim /t/watch_v3.py 
+cd ~/dot
+ls
+cd intellij/
+ls -la
+vim /t/watch_v3.py 
+cd ~/Documents/code/java/tws/
+ls
+git status
+git add --all
+git status
+git add --all
+git status
+git reset HEAD classes/production/*
+git status
+git add --all
+git status
+git commit -a -m "redo auth"
+git status
+git add --all
+git status
+git commit -a -m "love forgetting the jar"
+git push origin master
+git pull
+git push origin master
+hig -A 10 -B 10 old
+cd ~/dot
+git status
+git diff
+git add --all

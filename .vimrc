@@ -1,31 +1,30 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" ------ style ----------
 colo desert
 syntax on
 
-" normal mappings
+" -------  normal mappings -------------
 nmap J :bp<cr>
-nmap K :np<cr>
+nmap K :bn<cr>
 
-" set the runtime path to include Vundle and initialize
+
+" ------- random shit ----------
+" copy (write) highlighted text to .vimbuffer
+vmap <C-c> y:new ~/.vimbuffer<CR>VGp:x<CR> \| :!cat ~/.vimbuffer \| clip.exe <CR><CR>
+" paste from buffer
+map <C-v> :r ~/.vimbuffer<CR>
+
+" ------- vundle boiler ---------
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
 
+" ------- vundle includes -------
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 
-" All of your Plugins must be added before the following line
+" ------- vundle boilder ---------
 call vundle#end()            " required
 filetype plugin indent on    " required
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
