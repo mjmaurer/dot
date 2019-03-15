@@ -1,9 +1,9 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible
 
 " ------ style ----------
 colo desert
 syntax on
+
 
 " -------  normal mappings -------------
 nmap J :bp<cr>
@@ -16,7 +16,10 @@ vmap <C-c> y:new ~/.vimbuffer<CR>VGp:x<CR> \| :!cat ~/.vimbuffer \| clip.exe <CR
 " paste from buffer
 map <C-v> :r ~/.vimbuffer<CR>
 
+
 " ------- vundle boiler ---------
+set nocompatible
+filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -25,6 +28,15 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 
+
 " ------- vundle boilder ---------
 call vundle#end()            " required
-filetype plugin indent on    " required
+
+
+" ------ Google mappings -------
+if system('hostname') =~ 'google'
+"  source ~/googlestuff.vim
+endif
+
+
+filetype plugin indent on
