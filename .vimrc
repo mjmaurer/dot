@@ -19,7 +19,12 @@ map <C-v> :r ~/.vimbuffer<CR>
 
 " ------- vundle boiler ---------
 set nocompatible
-filetype off                  " required
+filetype off
+let vundleInstall='no'
+if !filereadable($HOME . '/.vim/bundle/Vundle.vim/.git/config') && confirm("Clone Vundle?","Y\nn") == 1
+    exec '!git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim'
+    let vundleInstall='yes'
+endif
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -31,7 +36,9 @@ Plugin 'tpope/vim-surround'
 
 " ------- vundle boilder ---------
 call vundle#end()            " required
-
+if vundleInstall =~ 'yes'
+  autocmd VimEnter * silent! PluginInstall
+endif
 
 " ------ Google mappings -------
 if system('hostname') =~ 'google'
