@@ -42,7 +42,7 @@ endif
 
 " ------ Google mappings -------
 if system('hostname') =~ 'google'
-"  source ~/googlestuff.vim
+  source ~/googlestuff.vim
 endif
 
 
