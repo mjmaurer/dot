@@ -16,10 +16,14 @@ fi
 export PS1="\w\\$ "
 
 # convenience aliases
+# vim
 alias ebrc='vim ~/.bashrc'
 alias ep='vim ~/.profile'
-
-# history aliases
+# tmux
+alias tnew='tmux new -s'
+alias topen='tmux a -t'
+alias tls='tmux ls'
+# history
 alias hiw='cat ~/dot/win/.bash_history'
 alias hil='cat ~/dot/lin/.bash_history'
 alias hig='cat ~/dot/win/.bash_history ~/dot/lin/.bash_history | grep'
