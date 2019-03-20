@@ -9,6 +9,13 @@ syntax on
 nmap J :bp<cr>
 nmap K :bn<cr>
 
+" Space as leader
+noremap <Space> <Nop>
+let mapleader=" "
+
+" Clipboard copy
+noremap <Leader>y "+y
+noremap <Leader>p "+p
 
 " ------- random shit ----------
 " copy (write) highlighted text to .vimbuffer

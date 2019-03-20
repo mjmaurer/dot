@@ -2,6 +2,8 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+set -o vi
+
 inwsl=$(grep Microsoft /proc/version)
 
 # if [ ! -z "$inwsl" ]; then
@@ -19,6 +21,7 @@ export PS1="\w\\$ "
 # vim
 alias ebrc='vim ~/.bashrc'
 alias ep='vim ~/.profile'
+alias evrc='vim ~/.vimrc'
 # tmux
 alias tnew='tmux new -s'
 alias topen='tmux a -t'
