@@ -4,3 +4,5 @@ nunmap J
 nunmap K
 nmap J gT
 nmap K gt
+
+nmap o :action GotoClass<CR>
