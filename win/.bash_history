@@ -1771,3 +1771,199 @@ cd ~/dot
 git status
 git diff
 git add --all
+git commit -a -m "clean up vimrc"
+git push origin master
+cd ~/Documents/code/java/tws
+hig -A 10 -B 10 old
+hig -A 15 -B 15 old
+git status
+git checkout --orphan oldV2
+git rm --cached -r .
+git remote add old https://github.com/mjmaurer/tws-auto-invest.git
+git fetch old socket
+git status
+git merge ad3ac5093acacb1f1fb32d319cc57a2e7c4a4128
+git merge -f ad3ac5093acacb1f1fb32d319cc57a2e7c4a4128
+git -f merge ad3ac5093acacb1f1fb32d319cc57a2e7c4a4128
+git status
+git merge -f ad3ac5093acacb1f1fb32d319cc57a2e7c4a4128
+git merge -X theirs ad3ac5093acacb1f1fb32d319cc57a2e7c4a4128
+git rm --cached -r .
+git rm --cached -f -r .
+git merge ad3ac5093acacb1f1fb32d319cc57a2e7c4a4128
+git status
+hig -A 15 -B 15 old
+git clean -d -f .*
+hig -A 20 "merge eec"
+git status
+git merge ad3ac5093acacb1f1fb32d319cc57a2e7c4a4128
+git clean API_VersionNum.txt 
+git clean -f API_VersionNum.txt 
+git merge ad3ac5093acacb1f1fb32d319cc57a2e7c4a4128
+git clean -d -f *
+git status
+git merge ad3ac5093acacb1f1fb32d319cc57a2e7c4a4128
+git status
+git add --all
+git status
+git commit -a -m "fix old jar"
+git status
+git push origin oldV2
+git status
+sudo apt-get update
+sudo apt-get install tmux
+tmux -V
+cd ~/dot
+git status
+git pull
+git status
+git diff
+git diff .vim/
+git status
+git add --all
+git status
+ls
+la
+rm -r .vim
+git status
+git add --all
+git status
+exit
+tmux
+source ~/.bashrc
+hig
+hiw
+asdf
+hig ln
+cd ~
+ln -s -f ~/dot/.tmux.conf ~/.tmux.conf
+exit
+tmux
+workon pedal
+workon pedals
+workon delas
+workon deals
+ls
+workon deals
+vim pedal.py 
+git status
+git add --all
+git status
+git push
+git push origin master
+git status
+git commit -a -m "add dia"
+git push origin master
+deactivate
+vim ~/.bashrc
+cd ~
+la
+cd .vim
+la .vim
+cd .vim
+cd ~/.vim
+cat .vim
+cat ~/.vim
+rm .vim
+la
+vim .vimrc
+cd ~/dot
+git status
+git pull
+la
+vim intellij/.ideavimrc 
+vim pedal.py 
+deactivate
+cd ~
+la
+cd dot
+cd intellij/
+vim .ideavimrc 
+apt-get install vim-gtk
+sudo apt-get install vim-gtk
+vim .ideavimrc 
+cd ../..
+la
+vim .tmux.conf 
+vim .vimrc
+cd Downloads/
+ls
+cd tmp
+vim watch_v3.py 
+ls ~
+cat ~
+vim /mnt/c/Alert/doc.html
+vim watch_v3.py 
+cd ~/
+la
+cd Documents/code/
+ls
+cd java
+ls
+cd tws
+ls
+git status
+git add --all
+git commit -a -m "add test runner and auth request"
+git push
+git status
+git add -- lal
+git add -- all
+git add --all
+git commit -a -m "ignore other timeout error"
+git push
+git status
+git checkout oldV2
+git status
+git diff
+git status
+git diff source/*
+git status
+git checkout -- *
+git status
+git add --all
+git status
+git commit -a -m "update jar
+"
+git push
+git push origin oldV2
+tmux attach
+cd java
+ls
+cd tws
+ls
+git status
+git add --all
+git commit -a -m "javax depends"
+git push
+git status
+git checkout -- *
+git status
+git add --all
+git status
+git add --all
+git status
+git commit -a -m "right manifest"
+git push
+git push origin oldV2
+git status
+git checkout -- *
+git status
+git add --all
+git commit -a -m "add jar"
+git push origin oldV2
+git status
+git push
+workon deals
+git status
+vim pedal.py 
+vim pedal.py
+git status
+git commit -a -m "add elias and up the ratio"
+git push
+git push origin master
+git push --set-upstream origin master
+git push
+cd ~/dot
+git status
+git add --all
