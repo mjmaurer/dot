@@ -4,7 +4,6 @@ set nocompatible
 colo desert
 syntax on
 
-
 " -------  normal mappings -------------
 nmap J :bp<cr>
 nmap K :bn<cr>
@@ -16,6 +15,9 @@ let mapleader=" "
 " Clipboard copy
 noremap <Leader>y "+y
 noremap <Leader>p "+p
+
+" Copy delete paste
+noremap <Leader>rw viwp 
 
 " ------- random shit ----------
 " copy (write) highlighted text to .vimbuffer
