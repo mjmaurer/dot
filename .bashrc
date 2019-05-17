@@ -14,6 +14,12 @@ if [[ $HOSTNAME != *"google"* ]]; then
   cd $HOME/Documents/code
 fi
 
+# unbind alt keys
+bind -r '\ei'
+bind -r '\ea'
+bind -r '\ef'
+bind -r '\em'
+
 # bash prompt
 export PS1="\w\\$ "
 
@@ -22,6 +28,7 @@ export PS1="\w\\$ "
 alias ebrc='vim ~/.bashrc'
 alias ep='vim ~/.profile'
 alias evrc='vim ~/.vimrc'
+alias etm='vim ~/.tmux.conf'
 # tmux
 alias tnew='tmux new -s'
 alias topen='tmux a -t'
@@ -30,6 +37,9 @@ alias tls='tmux ls'
 alias hiw='cat ~/dot/win/.bash_history'
 alias hil='cat ~/dot/lin/.bash_history'
 alias hig='cat ~/dot/win/.bash_history ~/dot/lin/.bash_history | grep'
+# sourceing
+alias stm='tmux source-file ~/.tmux.conf'
+alias sbrc='source ~/.bashrc'
 
 # If not running interactively, don't do anything
 case $- in
@@ -48,7 +58,7 @@ shopt -s histappend
 HISTSIZE=100000
 HISTFILESIZE=100000
 
-export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+export PROMPT_COMMAND="history -a; history -c; history -r;"
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
