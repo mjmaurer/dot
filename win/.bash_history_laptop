@@ -3,3 +3,10 @@ git status
 git add --all
 vim .bashrc
 git add --all
+git commit -a -m "bash history laptop"
+git pull
+git status
+vim win/.bash_history
+git add --all
+git status
+git commita -a -m .

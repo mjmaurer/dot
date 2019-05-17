@@ -490,6 +490,7 @@ git push
 cd ~/dot
 git status
 git add --all
+<<<<<<< HEAD
 ls
 git
 git clone https://github.com/mjmaurer/dot.git
@@ -523,3 +524,52 @@ git pull
 vim setup.sh 
 cat setup.sh 
 touch ~/dot/win/.bash_history_laptop
+=======
+git commit -a -m "idea something"
+git push
+git pull
+cd ../..
+ls
+cd c://
+cd c:\
+cd c:
+cd /c:
+la ~
+echo ~
+cd /mnt/c
+ls
+cd java
+cd tws
+git status
+git checkout -- *
+git status
+git add --all
+git status
+git add --all
+git commit -a -m "change port number"
+git push
+git push --set-upstream origin oldV2
+git status
+git add --all
+git commit -a -m "change port again"
+git push
+git status
+git add --all
+git commit -a -m "chjange client id"
+git push
+git status
+git add --all
+git commit -a -m "same port"
+git push
+git status
+git add --all
+git commit -a -m "update jar"
+git push
+cat /etc/fstab
+cat /etc/wsl.conf
+hig ln
+sudo ln -s ~/dot/.virtualenvs ~/.virtualenvs
+cd ~/dot
+git status
+git add --all
+>>>>>>> 9e0f40830ab63e707e9ffdcb5b3730dade19dae3

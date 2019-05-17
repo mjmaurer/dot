@@ -1,0 +1,7 @@
+#!/bin/bash
+# This hook is sourced after this virtualenv is activated.
+export GMAIL_USER=7reruamjm@gmail.com
+export GMAIL_PASS=poohey212g
+export GMAIL_TARGET=8597576028@msg.fi.google.com
+export PEDALS_ID=i37KGiIxdYxfoA
+export PEDALS_SECRET=OXpcD8KvN_h72o1GNAXEZl4nYoQ
