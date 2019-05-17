@@ -518,3 +518,8 @@ cd ~/dot
 git pull
 git status
 git add --all
+git commit -a -m "setup"
+git pull
+vim setup.sh 
+cat setup.sh 
+touch ~/dot/win/.bash_history_laptop

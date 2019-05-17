@@ -1,0 +1,5 @@
+ln -s -f ~/dot/win/.bash_history_laptop ~/.bash_history
+git status
+git add --all
+vim .bashrc
+git add --all

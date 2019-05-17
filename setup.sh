@@ -6,4 +6,4 @@ ln -s -f ~/dot/.tmux.conf ~/.tmux.conf
 ln -s -f ~/dot/.profile ~/.profile
 ln -s -f ~/dot/intellij/.ideavimrc ~/.ideavimrc
 ln -s -f ~/dot/win/.bash_history ~/.bash_history
-
+ln -s -f ~/dot/.virtualenvs ~/.virtualenvs
