@@ -25,10 +25,10 @@ export PS1="\w\\$ "
 
 # convenience aliases
 # vim
-alias ebrc='vim ~/.bashrc'
-alias ep='vim ~/.profile'
-alias evrc='vim ~/.vimrc'
-alias etm='vim ~/.tmux.conf'
+alias ebrc='nvim ~/.bashrc'
+alias ep='nvim ~/.profile'
+alias evrc='nvim ~/.vimrc'
+alias etm='nvim ~/.tmux.conf'
 # tmux
 alias tnew='tmux new -s'
 alias topen='tmux a -t'

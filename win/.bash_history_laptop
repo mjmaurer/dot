@@ -10,3 +10,13 @@ vim win/.bash_history
 git add --all
 git status
 git commita -a -m .
+git commit -a -m .
+git status
+git push
+apt-get install neovim
+sudo apt-get install neovim
+neovim
+nvim
+ebrc
+git status
+git add --all
