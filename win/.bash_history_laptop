@@ -20,3 +20,193 @@ nvim
 ebrc
 git status
 git add --all
+git commit -a -m 'nvim'
+ep
+ls
+la
+evrc
+nvim .nvimrc
+git status
+git add --all
+hig ln
+sudo ln -s ~/dot/.nvimrc ~/.nvimrc
+evrc
+cd ~
+ls
+cd Documents/
+la
+cd code
+ls
+mkdir web
+cd web
+git clone https://github.com/coldweatherboy/coldweatherboy.github.io.git
+ls
+cd coldweatherboy.github.io/
+ls
+cat ~/.tmux.conf 
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+xclip
+sudo apt install xclip
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+cat ~/.tmux.conf 
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+tmux exit
+tmux kill
+tmux kill-session
+tmux
+vim ~/.tmux.conf 
+ls
+autohotkey  java  python  web
+tmux kill-session
+tmux
+vim ~/.tmux.conf 
+vim ~/.vimrc
+nvim ~/.vimrc
+la /mnt/d
+la /mnt/c/
+la /
+la /bin
+cat ~/.vimrc
+nvim ~/.vimrc
+ls $NEOVIM_WIN_DIR
+$NEOVIM_WIN_DIR
+cd $NEOVIM_WIN_DIR
+ls
+la
+cd $NEOVIM_WIN_DIR/bin
+ls
+la
+ls | grep win
+ls | grep nt
+sudo ln -s "/mnt/c/Program Files/Neovim/bin/win32yank.exe" "/usr/local/bin/win32yank.exe
+
+
+
+
+"
+sudo ln -s "/mnt/c/Program Files/Neovim/bin/win32yank.exe" "/usr/local/bin/win32yank.exe"
+nvim ~/.vimrc
+vim ~/.vimrc
+nvim ~/.vimrc
+la /usr/local/bin
+la "/mnt/c/Program Files/Neovim"
+la "/mnt/c/Program Files"
+la "/mnt/c/"
+la "/mnt/c/Program Files (x86)"
+sudo ln -s "/mnt/c/Users/mjmau/scoop/apps/neovim/current/Neovim/bin/win32yank.exe" "/usr/local/bin/win32yank.exe"
+sudo ln -s -f "/mnt/c/Users/mjmau/scoop/apps/neovim/current/Neovim/bin/win32yank.exe" "/usr/local/bin/win32yank.exe"
+nvim ~/.vimrc
+cat /usr/local/bin/win32yank.exe 
+nvim ~/.vimrc
+cat $PATH
+$PATH
+ls /usr/bin
+ls /usr/bin/neovim
+ls /usr/bin/local
+ls /usr/local/bin
+ls /usr/local/
+$PTH
+echo $PATH
+nvim ~/.vimrc
+nvim --version
+nvim --version | grep clipboard
+nvim ~/.vimrc
+ls
+la
+la /
+:map <Space>
+nvim ~/.vimrc
+vim ~/.vimrc
+vim --version
+nvim --version
+la ~/dot
+la ~
+cat ~/.nvimrc
+sudo apt-get install neovim
+nvim --version
+sudo apt-get update neovim
+sudo apt-get update
+sudo apt-get install neovim
+sudo apt autoremove
+hiw install
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get install neovim
+cd java
+ls
+cd jars
+cd ../tws
+ls
+cd source
+ls
+cd JavaClient/
+ls
+cd com/
+ls
+cd tws
+ls
+cd main
+ls
+hiw jar
+hig jar
+cd ../../../..
+cd ..
+ls
+cd classes
+ls
+cd ar
+cd artifacts/
+ls
+cd test
+ls
+java
+cd ../../..
+git status
+git add --all
+git status
+git commit -a -m "add javax jar and update jars"
+git push
+git status
+git push origin master
+git status
+git add --all
+git commit -a -m "add ability to use example file for testing"
+git status
+git push origin master
+sudo apt-get --purge remove neovim
+sudo apt autoremove
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+cd ~/dot
+nvim /.vimrc
+nvim .vimrc
+la ~
+mkdir -p ~/.config/nvim
+echo 'source ~/.nvimrc' > ~/.config/nvim/init.vim
+nvim .vimrc 
+tmx
+tmux attach
+sessions should be nested with care, unset $TMUX to force
+cat ~/.tmux.conf 
+sessions should be nested with care, unset $TMUX to force
+vim ~/.tmux.conf 
+tmux detach
+tmux 
+tmux --version
+tmux -V
+cat ~/.tmux.conf 
+vim ~/.tmux.conf 
+tmux detach
+tmux 
+ls ~/.tmux
+cat ~/.tmux.conf 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+tmux source ~/.tmux.conf
+etmc
+etm
+tmux source ~/.tmux.conf
+cd ~/dot
+git status
+git add --all

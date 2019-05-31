@@ -18,7 +18,7 @@ export PROJECT_HOME=$HOME/Documents/code/python
 
 
 # default editor
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 # if running bash

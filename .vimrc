@@ -9,12 +9,13 @@ nmap J :bp<cr>
 nmap K :bn<cr>
 
 " Space as leader
-noremap <Space> <Nop>
+map <Space> <Nop>
 let mapleader=" "
 
 " Clipboard copy
 noremap <Leader>y "+y
 noremap <Leader>p "+p
+set clipboard=unnamedplus
 
 " Copy delete paste
 noremap <Leader>rw viwp 
