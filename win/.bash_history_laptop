@@ -210,3 +210,42 @@ tmux source ~/.tmux.conf
 cd ~/dot
 git status
 git add --all
+git commit -a -m "tmux and vim paste"
+git push
+ls
+cd web
+ls
+mkdir learn
+cd learn/
+mkdir grid
+cd grid
+nvim index.html
+ls
+cat index.html 
+top index.html 
+la ~
+cd ~/.local
+la
+cd share/nvim/
+la
+mkdir -p ~/.local/share/nvim/site/pack/git-plugins/start
+git clone https://github.com/w0rp/ale.git ~/.local/share/nvim/site/pack/git-plugins/start/ale
+ls
+rm -r -f site
+ls
+evrc
+nvim ~/.bashrc
+cd ~/
+ls
+cd Documents/code/web/
+ls
+cd learn/
+ls
+cd grid
+nvim index.html 
+la ~
+cd ~
+la .vim
+cd dot
+git status
+git add --all

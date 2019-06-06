@@ -42,6 +42,7 @@ call vundle#begin()
 " ------- vundle includes -------
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'w0rp/ale'
 
 
 " ------- vundle boilder ---------
