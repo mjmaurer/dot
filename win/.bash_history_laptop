@@ -249,3 +249,29 @@ la .vim
 cd dot
 git status
 git add --all
+git commit -a -m 'ale'
+cd .vim
+ls
+la
+la ..
+c ../.vim
+cd ../.vim
+ls
+la
+cd bundle/
+ls
+cd ..
+mkdir ftplugin/js
+mkdir -p ftplugin/js
+ls
+cd ftplugin/
+ls
+cd ..
+rm -r ftplugin/
+ls
+cd ..
+cd dot
+nvim setup.sh 
+mkdir -p ftplugin/
+nvim ftplugin/javascript.vim
+setup.sh

@@ -573,3 +573,73 @@ cd ~/dot
 git status
 git add --all
 >>>>>>> 9e0f40830ab63e707e9ffdcb5b3730dade19dae3
+./setup.sh 
+cd ..
+ls
+cd .vim
+ls
+cd ftplugin
+ls
+cd ..
+ls
+cd ~/Documents/code/web/learn/
+ls
+cd grid
+ls
+nvim index.html 
+cd ~/.vim
+ls
+cd ftplugin
+ls
+mkdir html
+ls
+rm html/
+rm -r html/
+ls
+nvim html.vim
+ls
+cat *
+cd 
+cd Documents/code/web/learn/grid/
+ls
+nvim index.html 
+cd ~
+ls
+cd .config
+ls
+cd nvim
+ls
+cd ~/dot
+ls
+nvim setup.sh 
+./setup.sh 
+cd ~
+ls
+cd .config/
+ls
+cd nvim
+ls
+cd ftplugin
+ls
+cd ftplugin
+ls
+cd ftplugin
+ls
+cd ../../..
+ls
+cd ftplugin
+ls
+rm -r ftplugin
+ls
+nvim ~/dot/setup.sh 
+cd ~/Documents/code/web/learn/grid/
+ls
+nvim index.html 
+cd ../..
+cd ...
+cd ../dot
+ls
+git status
+git add --all
+git commit -a -m "alesetup'
+;
