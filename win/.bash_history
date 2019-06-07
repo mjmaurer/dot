@@ -643,3 +643,88 @@ git status
 git add --all
 git commit -a -m "alesetup'
 ;
+git commit -a -m "alesetup"
+git push
+cd ~/Documents/code/web/learn/grid/
+ls
+nvim index.html 
+nvim ~/dot/ftplugin/html.vim 
+yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
+yarn global add prettier
+nvim index.html 
+yarn remove prettier
+yarn global remove prettier
+sudo apt-get remove yarn
+sudo apt install npm
+npm --version
+npm i -g eslint
+sudo npm i -g eslint
+npm -help
+npm help 
+npm help npm | grep '-D'
+npm help npm | grep 'D'
+npm help npm | grep 'D'npm i -D prettier eslint-plugin-prettier eslint-config-prettier
+npm i -g -D prettier eslint-plugin-prettier eslint-config-prettier
+sudo npm i -g -D prettier eslint-plugin-prettier eslint-config-prettier
+sudo npm uninstall i -g eslint
+sudo npm uninstall -g eslint
+sudo npm i -g eslint
+sudo npm i -g -D prettier eslint-plugin-prettier eslint-config-prettier
+eslint --version
+sudo npm i -D prettier eslint-plugin-prettier eslint-config-prettier
+eslint --version
+sudo npm i -g -D prettier eslint-plugin-prettier eslint-config-prettier
+npm list -g | grep eslint
+npm install
+npm install help
+npm install -help
+ls
+la
+cd node_modules/
+ls
+cd ..
+ls
+rm -r node_modules/
+ls
+sudo npm i -g -D prettier eslint-plugin-prettier eslint-config-prettier
+ls
+la ~
+rm ~/.yarn
+rm -r ~/.yarn
+la ~/.npm
+npm install -g
+npm install
+ls
+rm -r node_modules/
+sudo npm install
+ls
+rm -r node_modules/
+la ~/.npm
+cd ~
+eslint --init
+ls
+la
+cd dot
+npm init
+eslint --init
+ls
+la node_modules/
+rm -r node_modules/
+ls
+la package.json 
+cat package.json 
+nvim package.json 
+cd ~/Documents/code/web/learn/grid/
+ls
+nvim index.html 
+hiw
+la ~
+nvim ~/dot/setup.sh 
+cd ~/dot
+git status
+git add --all
+git commit -a -m 'eslint
+;
