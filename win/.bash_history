@@ -754,3 +754,14 @@ cd ~dot
 cd ~/dot
 git status
 git add --all
+git commit -a -m 'ale config'
+cat ~/.tmux.conf 
+cat ~/.tmux.conf | grep kill
+ed .tmux.conf 
+tmux new -s dot
+ed .tmux.conf 
+etm
+cd ~/dot
+git status
+git add --all
+git commit -a -m 
