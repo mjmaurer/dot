@@ -728,3 +728,29 @@ git status
 git add --all
 git commit -a -m 'eslint
 ;
+git commit -a -m 'eslint'
+git push
+evrc
+cd ~/Documents/code/web/learn/grid
+ls
+ebrc
+source ~/.bashrc
+cd web/learn/grid
+ed index.html 
+mkdir -p ~/Documents/code/web/newsite
+cp * ~/Documents/code/web/newsite/
+cd ../../newsite/
+ls
+mv web.css main.css
+ls
+ed index.html 
+git init
+git add --all
+git status
+git commit -a -m 'init'
+ed index.html 
+tmux attach
+cd ~dot
+cd ~/dot
+git status
+git add --all

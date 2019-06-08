@@ -24,6 +24,8 @@ bind -r '\em'
 export PS1="\w\\$ "
 
 # convenience aliases
+# edit command
+alias ed='nvim'
 # vim
 alias ebrc='nvim ~/.bashrc'
 alias ep='nvim ~/.profile'
