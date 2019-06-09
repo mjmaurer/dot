@@ -765,3 +765,25 @@ cd ~/dot
 git status
 git add --all
 git commit -a -m 
+git commit -a -m 'tmux updates'
+etm
+tmux new -s dot
+cd ~/dot
+etm
+evrc
+etm
+tmux detatch
+tmux exit
+tmux new -s dot
+etm
+tmux attach
+tmux kill-server
+etm
+j
+etm
+cat /sys/class/power_supply/battery/capacity
+etm
+cd ~/dot
+git status
+git add --all
+git commit -a -m 

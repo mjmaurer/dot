@@ -1,39 +1,3 @@
-set nocompatible
-
-" ------ style ----------
-colo desert
-syntax on
-
-" -------  normal mappings -------------
-nmap J :bp<cr>
-nmap K :bn<cr>
-
-" Space as leader
-map <Space> <Nop>
-let mapleader=" "
-
-" Clipboard copy
-noremap <Leader>y "+y
-noremap <Leader>p "+p
-set clipboard=unnamedplus
-
-" Copy delete paste
-noremap <Leader>rw viwp 
-
-" ALE
-let g:ale_fix_on_save = 1
-let g:ale_sign_error = '✘'
-let g:ale_sign_warning = '⚠'
-highlight ALEErrorSign ctermbg=NONE ctermfg=red
-highlight ALEWarningSign ctermbg=NONE ctermfg=yellow
-
-" ------- random shit ----------
-" copy (write) highlighted text to .vimbuffer
-vmap <C-c> y:new ~/.vimbuffer<CR>VGp:x<CR> \| :!cat ~/.vimbuffer \| clip.exe <CR><CR>
-" paste from buffer
-map <C-v> :r ~/.vimbuffer<CR>
-
-
 " ------- vundle boiler ---------
 set nocompatible
 filetype off
@@ -65,3 +29,57 @@ endif
 
 
 filetype plugin indent on
+
+" ------ style ----------
+syntax on
+set t_Co=256
+colorscheme gruvbox
+set background=dark
+
+"================Spaces and Tabs==========="
+    set tabstop=4
+    set softtabstop=4
+    set expandtab
+    set shiftwidth=4
+"==================UI Config==============="
+    set number
+    set showcmd
+    set cursorline
+    filetype indent on
+    set showmatch
+    set laststatus=2
+" -------  normal mappings -------------
+    nmap J :bp<cr>
+    nmap K :bn<cr>
+
+" Space as leader
+map <Space> <Nop>
+let mapleader=" "
+
+" Clipboard copy
+noremap <Leader>y "+y
+noremap <Leader>p "+p
+set clipboard=unnamedplus
+
+" Copy delete paste
+noremap <Leader>rw viwp 
+
+" ALE
+let g:ale_fix_on_save = 1
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = '⚠'
+highlight ALEErrorSign ctermbg=NONE ctermfg=red
+highlight ALEWarningSign ctermbg=NONE ctermfg=yellow
+
+" ------- random shit ----------
+" copy (write) highlighted text to .vimbuffer
+vmap <C-c> y:new ~/.vimbuffer<CR>VGp:x<CR> \| :!cat ~/.vimbuffer \| clip.exe <CR><CR>
+" paste from buffer
+map <C-v> :r ~/.vimbuffer<CR>
+
+"====================Powerline============="
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+" Always show statusline
+set laststatus=2
+
