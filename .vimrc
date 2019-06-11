@@ -14,7 +14,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
-
+Plugin 'morhetz/gruvbox'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 
 " ------- vundle boilder ---------
 call vundle#end()            " required
@@ -35,6 +39,9 @@ syntax on
 set t_Co=256
 colorscheme gruvbox
 set background=dark
+" ----- airline -------
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 "================Spaces and Tabs==========="
     set tabstop=4
@@ -62,12 +69,17 @@ noremap <Leader>p "+p
 set clipboard=unnamedplus
 
 " Copy delete paste
-noremap <Leader>rw viwp 
-
+noremap <Leader>rw viwp
+" gitgutter
+nmap H <Plug>GitGutterPrevHunk
+nmap L <Plug>GitGutterNextHunk
+nmap <Leader>d <Plug>GitGutterPreviewHunk
+nmap <Leader>qd :pc<CR>
 " ALE
 let g:ale_fix_on_save = 1
 let g:ale_sign_error = '✘'
 let g:ale_sign_warning = '⚠'
+cmap fix ALEFix
 highlight ALEErrorSign ctermbg=NONE ctermfg=red
 highlight ALEWarningSign ctermbg=NONE ctermfg=yellow
 
@@ -76,9 +88,6 @@ highlight ALEWarningSign ctermbg=NONE ctermfg=yellow
 vmap <C-c> y:new ~/.vimbuffer<CR>VGp:x<CR> \| :!cat ~/.vimbuffer \| clip.exe <CR><CR>
 " paste from buffer
 map <C-v> :r ~/.vimbuffer<CR>
-
-"====================Powerline============="
-set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
 
 " Always show statusline
 set laststatus=2

@@ -10,6 +10,6 @@ BoldAsFont=no
 Columns=104
 Rows=62
 FontHeight=10
-CursorType=line
+CursorType=block
 CtrlShiftShortcuts=yes
 Font=Consolas NF

@@ -787,3 +787,26 @@ cd ~/dot
 git status
 git add --all
 git commit -a -m 
+git commit -a -m 'tmux status'
+sudo pip install powerline-status
+sudo pip uninstall powerline-status
+evrc
+python --version
+evrc
+vim
+evrc
+ebrc
+evrc
+git sttus
+git status
+la
+nvim .nvimrc
+evrc
+nvim .nvimrc 
+evrc
+ebrc
+sbrc
+cd ~/dot
+evrc
+git add --all
+git commit -a -m 
