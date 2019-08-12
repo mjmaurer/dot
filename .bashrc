@@ -21,7 +21,7 @@ bind -r '\ef'
 bind -r '\em'
 
 # bash prompt
-export PS1="\w\\$ "
+export PS1="\[\e[1;36m\]\w\\$ \[\e[0m\]"
 
 # convenience aliases
 # edit command
@@ -168,3 +168,7 @@ LS_COLORS=$LS_COLORS':*.exe=31'
 LS_COLORS=$LS_COLORS':*.bat=31'
 LS_COLORS=$LS_COLORS':*.com=31'
 export LS_COLORS
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

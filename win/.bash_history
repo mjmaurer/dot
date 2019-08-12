@@ -810,3 +810,359 @@ cd ~/dot
 evrc
 git add --all
 git commit -a -m 
+git commit -a -m 'git and airline'
+git push
+etm
+sudo apt-get install ripgrep
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/11.0.1/ripgrep_11.0.1_amd64.deb
+sudo dpkg -i ripgrep_11.0.1_amd64.deb
+rg
+rg help
+rg PS1
+rg y
+rg PS
+echo $PS1
+cd ..
+rg PS
+sudo rg PS
+sudo rg PS1
+ebrc
+sbrc
+rg PS
+ebrc
+sbrc
+cd ~dot
+cd ~/dot
+cd web/
+ls
+cd newsite/
+ls
+evrc
+ed index.html 
+cd ..
+mkdir .vimundo
+ls
+la
+cd dot
+tmux attach
+tmux attach -s dot
+tmux
+cd web/
+ls
+cd newsite/
+ls
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+ebrc
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install build-essential
+sbrc
+nvm install node
+nvm which current
+nvm use node
+nvm run node
+npm
+ls
+cd web
+ls
+mkdir sessions
+ls
+cd sessions/
+ls
+cd ..
+git clone https://github.com/mjmaurer/browser-session-extension.git
+ls
+cd browser-session-extension/
+ls
+npm installls
+ls
+ed .gitignore
+la
+npm install
+npm audit fix
+npm install
+la
+cd node_modules/
+ls
+cd ..
+la
+ls
+la
+ls
+la package.json 
+cat package.json 
+npm run build
+la
+cd distribution/
+ls
+npm run build
+la
+cd ..
+la
+ed webpack.config.js 
+git status
+git diff
+git diff package.json
+git commit package* -m "upgrade web ext"
+git status
+git add --all
+git commit -a -m "cleanup dist/ on build"
+git status
+ed webpack.config.js 
+tmx
+tmux attach
+:
+tmux new-session 
+cd ~dot
+cd ~/dot
+ls
+cd ~/Documents/code/web/browser-session-extension/
+ebrc
+evrc
+ls
+cd source/
+ls
+ed manifest.json 
+git status
+git commit -a -m "browse a bout!"
+ls
+cd ..
+ls
+cd media/
+ls
+cd ..
+ls
+ed webpack.config.js 
+ls
+cd distribution/
+ls
+ed options.
+ls
+la
+ed options.html 
+ls
+cd ..
+ls
+ed webpack.config.js 
+npm install sass-loader node-sass webpack --save-dev
+npm install style-loader css-loader --save-dev
+ed webpack.config.js 
+ls
+git status
+git commit -a -m "move to scss"
+git status
+ls
+cd source/
+ls
+mkdir background
+mkdir options
+mv background.js background
+ls
+mv options-storage.js options
+ls
+mv options\. options
+mv options\.* options
+ls
+mkdir icons
+mv icon.png icons
+ls
+git status
+git add --all
+git commit -a -m "move extension pages into own directories"
+git status
+git push
+cd ..
+ls
+git status
+npm run build
+cd source/
+ls
+cd options/
+ls
+ed options.html 
+ed options.css 
+cd ../..
+npm run build
+npm i --save-dev mini-css-extract-plugin
+npm run build
+npm i --save-dev clean-webpack-plugin
+npm run build
+cd source/
+ls
+cd options/
+ls
+ed options.js
+npm run build
+ed ../manifest.json 
+ls
+cd ..
+sl
+ls
+cd icons/
+ls
+cd ..
+ls
+npm run build
+ls
+cd ..
+ls
+ccd distribution/
+ls
+cd distribution/
+ls
+ed manifest.json 
+cd ../source/
+ls
+ed manifest.json 
+rm -r ../distribution/
+npm run build
+cd ../distribution/
+ls
+cd ../source/
+ls
+cat manifest.json 
+cd ../distribution/
+ls
+ed manifest.json 
+cd ../source/
+ls
+ed manifest.json 
+npm run build
+ls
+ed manifest.json 
+ls
+cd ..
+ed webpack.config.js 
+cd distribution/
+ls
+cd options/
+ls
+cd ..
+cd ../source/
+ls
+cd background/
+ls
+cd ..
+ls
+ed webpack.config.js 
+ls
+ed webpack.config.js 
+npm run build
+ls
+cd distribution/
+ls
+cd ..
+ls
+cd source/
+ls
+ed manifest.json 
+npm run build
+ls ../distribution/
+ls
+ed options/options.html 
+npm run build
+ls
+ed manifest.json 
+npm run build
+ed ../distribution/
+ed ../distribution/manifest.json 
+cd ../distribution/
+ls
+cd ..
+ls
+cd source/
+ls
+ed manifest.json 
+npm run build
+mkdir popup
+cd popup/
+ls
+ed popup.html
+cd ..
+ed manifest.json 
+npm run build
+ls
+cd options/
+ls
+cd ..
+ed manifest.json 
+ed popup/popup.html 
+npm run build
+ed popup/popup.js
+ed popup/popup.html 
+npm run build
+ls ../distribution/
+cd ..
+ls
+ed webpack.config.js 
+npm run build
+ed webpack.config.js 
+npm run build
+ls
+cd source/
+ls
+cd options/
+ls
+ed options
+ed options.js
+cd ..
+ed background/background.js 
+cd background/
+ls
+cd ..
+ls
+cd options/
+ls
+ed options.html 
+cd ..
+ed options/options.html 
+ed we
+cd ..
+ls
+ed webpack.config.js 
+npm run build
+cd source/
+ed options/options.html 
+npm run build
+npm run watch
+cd web/browser-session-extension/
+ls
+cd web/browser-session-extension/
+ls
+cd web/
+ls
+cd browser-session-extension/
+ls
+cd source/
+ls
+cd web
+ls
+cd browser-session-extension/
+ls
+cd source/
+ls
+ed options/options.html
+tmx
+tmux attach
+etm
+evrc
+cd web
+cd browser-session-extension/
+ls
+cd source/
+ls
+evrc
+ed options/options.js
+svrc
+evrc
+ed options/options.js
+evrc
+ed options/options.js
+tmux new -s extension
+ebrc
+cd ~
+cd dot
+ls
+git status
+git add all
+git add --all

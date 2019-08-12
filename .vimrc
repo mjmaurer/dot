@@ -12,12 +12,14 @@ call vundle#begin()
 
 " ------- vundle includes -------
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
-Plugin 'morhetz/gruvbox'
+Plugin 'gruvbox-community/gruvbox'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-commentary'
 Plugin 'airblade/vim-gitgutter'
 
 " ------- vundle boilder ---------
@@ -35,9 +37,9 @@ endif
 filetype plugin indent on
 
 " ------ style ----------
-syntax on
 set t_Co=256
 colorscheme gruvbox
+syntax on
 set background=dark
 " ----- airline -------
 let g:airline#extensions#tabline#enabled = 1
@@ -58,8 +60,16 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 " -------  normal mappings -------------
     nmap J :bp<cr>
     nmap K :bn<cr>
+" =============Webpack============ "
+:set backupcopy=yes
 
 " Space as leader
+map <Space> <Nop>
+let mapleader=" "
+" undo 
+set undofile
+set undodir=~/.vimundo
+
 map <Space> <Nop>
 let mapleader=" "
 
