@@ -1233,3 +1233,43 @@ evrc
 git status
 git add --all
 git commit -a -m 
+git commit -a -m "coc"
+git push 
+evrc
+:wq
+evrc
+cd web/browser-session-extension/
+ls
+cd ..
+ls
+ed webpack.config.js 
+npm run watch
+git diff
+git status
+git diff webpack.config.js
+git commit -a -m "reactify options and move different entires for options and popup"
+git status
+git add --all
+git commit -a -m 'whoops'
+git status
+npm install babel-loader
+npm install @babel/core @babel/node @babel/preset-env @babel/preset-react --save-dev
+ls
+rm .babelrc 
+ls
+git status
+la ~
+npm list -g
+npm list -g | grep eslint
+npm list -g | grep prettier
+ls
+la ftplugin/
+npm i -g eslint
+npm i -g stylelint
+npm i -D prettier eslint-plugin-prettier eslint-config-prettier
+npm i -D stylelint-prettier stylelint-config-prettier
+npm uninstall --save-dev stylelint-config-xo
+npm uninstall --save-dev eslint-config-xo
+cd ~/dot
+git status
+git add --all
