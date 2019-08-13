@@ -1303,3 +1303,10 @@ git status
 git add --all
 git status
 git -a -m "remove global node config"
+git commit -a -m "remove global node config"
+git push
+la
+mv json.vim ftplugin/
+la
+git status
+git add --all
