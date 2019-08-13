@@ -10,5 +10,4 @@ ln -s -f ~/dot/.virtualenvs ~/.virtualenvs
 ln -s -f ~/dot/ftplugin ~/.vim/ftplugin
 ln -s -f ~/dot/ftplugin ~/.config/nvim/ftplugin
 ln -s -f ~/dot/coc-settings.json ~/.config/nvim/coc-settings.json
-sudo npm i -g eslint
-sudo npm i -g -D prettier eslint-plugin-prettier eslint-config-prettier
+ln -s -f ~/package.json ~/dot/package.json

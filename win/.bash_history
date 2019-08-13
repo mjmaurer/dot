@@ -1273,3 +1273,33 @@ npm uninstall --save-dev eslint-config-xo
 cd ~/dot
 git status
 git add --all
+git commit -a -m "fix linting to use prettier as extension and add json fix"
+ls
+ed ~/package.json
+cat package.json 
+git status
+la
+ed .gitignore
+git status
+git add --all
+rm package.json 
+git status
+npm i -P stylelint-prettier stylelint-config-prettier stylelint eslint eslint-config-prettier eslint-plugin-prettier
+la
+rm package-lock.json 
+la ~
+la
+rm ripgrep_11.0.1_amd64.deb 
+la
+git status
+la
+rm .eslintrc.json 
+la
+git status
+la
+rm -rf node_modules/
+la
+git status
+git add --all
+git status
+git -a -m "remove global node config"
