@@ -1310,3 +1310,7 @@ mv json.vim ftplugin/
 la
 git status
 git add --all
+git commit -a -m "whoops"
+la
+cat .nvimrc 
+git status
