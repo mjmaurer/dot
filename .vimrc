@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 
 " ------- vim plug includes -------
 Plug 'Shougo/denite.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 Plug 'w0rp/ale'

@@ -9,5 +9,6 @@ ln -s -f ~/dot/win/.bash_history ~/.bash_history
 ln -s -f ~/dot/.virtualenvs ~/.virtualenvs
 ln -s -f ~/dot/ftplugin ~/.vim/ftplugin
 ln -s -f ~/dot/ftplugin ~/.config/nvim/ftplugin
+ln -s -f ~/dot/coc-settings.json ~/.config/nvim/coc-settings.json
 sudo npm i -g eslint
 sudo npm i -g -D prettier eslint-plugin-prettier eslint-config-prettier

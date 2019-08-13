@@ -1221,3 +1221,15 @@ evrc
 git status
 git add --all
 git commit -a -m 
+git commit -a -m "switch to vim plug"
+git push
+evrc
+la ~/.config/nvim/
+ed coc-settings.json
+ln -s -f ~/dot/coc-settings.json ~/.config/nvim/coc-settings.json
+ls
+ed setup.sh 
+evrc
+git status
+git add --all
+git commit -a -m 
