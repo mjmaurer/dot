@@ -1,40 +1,26 @@
-" ------- vundle boiler ---------
 set nocompatible
 filetype off
-let vundleInstall='no'
-if !filereadable($HOME . '/.vim/bundle/Vundle.vim/.git/config') && confirm("Clone Vundle?","Y\nn") == 1
-    exec '!git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim'
-    let vundleInstall='yes'
-endif
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
 
+call plug#begin('~/.vim/plugged')
 
-" ------- vundle includes -------
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'tpope/vim-surround'
-Plugin 'w0rp/ale'
-Plugin 'gruvbox-community/gruvbox'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-commentary'
-Plugin 'airblade/vim-gitgutter'
+" ------- vim plug includes -------
+Plug 'Shougo/denite.nvim'
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-surround'
+Plug 'w0rp/ale'
+Plug 'gruvbox-community/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
+Plug 'airblade/vim-gitgutter'
 
-" ------- vundle boilder ---------
-call vundle#end()            " required
-if vundleInstall =~ 'yes'
-  autocmd VimEnter * silent! PluginInstall
-endif
+call plug#end()
 
 " ------ Google mappings -------
 if system('hostname') =~ 'google'
   source ~/googlestuff.vim
 endif
-
-
-filetype plugin indent on
 
 " ------ style ----------
 set t_Co=256
@@ -93,6 +79,51 @@ cmap fix ALEFix
 highlight ALEErrorSign ctermbg=NONE ctermfg=red
 highlight ALEWarningSign ctermbg=NONE ctermfg=yellow
 
+" -------- denite --------
+
+call denite#custom#option('default', {
+      \ 'prompt': '>'
+      \ })
+
+call denite#custom#var('file/rec', 'command',
+      \ ['fd', '-H', '--full-path'])
+call denite#custom#var('grep', 'command', ['rg'])
+call denite#custom#var('grep', 'default_opts',
+      \ ['--hidden', '--vimgrep', '--smart-case'])
+call denite#custom#var('grep', 'recursive_opts', [])
+call denite#custom#var('grep', 'pattern_opt', ['--regexp'])
+call denite#custom#var('grep', 'separator', ['--'])
+call denite#custom#var('grep', 'final_opts', [])
+
+autocmd FileType denite call s:denite_settings()
+
+function! s:denite_settings() abort
+  nnoremap <silent><buffer><expr> <CR>
+        \ denite#do_map('do_action')
+  nnoremap <silent><buffer><expr> <C-v>
+        \ denite#do_map('do_action', 'vsplit')
+  nnoremap <silent><buffer><expr> p
+        \ denite#do_map('do_action', 'preview')
+  nnoremap <silent><buffer><expr> <Esc>
+        \ denite#do_map('quit')
+  nnoremap <silent><buffer><expr> i
+        \ denite#do_map('open_filter_buffer')
+endfunction
+
+autocmd FileType denite-filter call s:denite_filter_settings()
+
+function! s:denite_filter_settings() abort
+  nmap <silent><buffer> <Esc> <Plug>(denite_filter_quit)
+endfunction
+
+nnoremap <leader>o :<C-u>Denite file/rec -start-filter<CR>
+nnoremap <leader>s :<C-u>Denite buffer<CR>
+nnoremap <leader>8 :<C-u>DeniteCursorWord grep:.<CR>
+nnoremap <leader>/ :<C-u>Denite grep:.<CR>
+nnoremap <leader><Space>/ :<C-u>DeniteBufferDir grep:.<CR>
+nnoremap <leader>d :<C-u>DeniteBufferDir file/rec -start-filter<CR>
+nnoremap <leader><C-r> :<C-u>Denite register:.<CR>
+nnoremap <leader>g :<C-u>Denite gitstatus<CR>
 " ------- random shit ----------
 " copy (write) highlighted text to .vimbuffer
 vmap <C-c> y:new ~/.vimbuffer<CR>VGp:x<CR> \| :!cat ~/.vimbuffer \| clip.exe <CR><CR>

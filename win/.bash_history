@@ -1166,3 +1166,58 @@ ls
 git status
 git add all
 git add --all
+git commit -a -m "idk what i changeed but definitely stuff"
+git push
+evrc
+pip3 install --user pynvim
+pip install --user pynvim
+pip --version
+pip install --user pynvim
+evrc
+sudo apt install fd-find
+sudo apt-get update
+sudo apt-get install fd-find
+sudo apt-get install fd
+sudo apt-get install fdfind
+sudo apt-get install fd-find
+fd
+sudo apt-get install fdclone
+fd
+sudo apt-get uninstall fdclone
+sudo apt uninstall fdclone
+sudo apt-get remove fdclone
+rg
+fd-find
+fd
+sudo apt-get upgrade
+fd
+sudo apt-get update
+sudo apt-get install fd-find
+sudo dpkg -i :~/Downloads/toremove/fd_7.3.0_i386.deb
+sudo dpkg -i ~/Downloads/toremove/fd_7.3.0_i386.deb
+sudo dpkg -i ~/Downloads/toremove/fd_7.3.0_amd64.deb
+fd
+evrc
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+evrc
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+ls ~/.vim
+la ~/.vim
+ls ~/.vim/autoload/
+ls
+la
+la ~/.config
+la ~/.config/nvim
+cat ~/.config/nvim/init.vim
+cat ~/.nvimrc
+la ~/.local/share/nvim/
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+la ~/.local/share/nvim/
+la ~/.local/share/nvim/site
+la ~/.local/share/nvim/site/autoload/
+evrc
+rm -rf ~/.vim/bundle
+evrc
+git status
+git add --all
+git commit -a -m 
