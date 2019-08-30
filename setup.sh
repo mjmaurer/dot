@@ -12,6 +12,7 @@ ln -s -f ~/dot/.virtualenvs ~/.virtualenvs
 mkdir .vim
 mkdir .config
 mkdir .config/nvim
+ln -s -f ~/dot/.vimrc ~/.config/nvim/init.vim
 ln -s -f ~/dot/ftplugin ~/.vim/ftplugin
 ln -s -f ~/dot/ftplugin ~/.config/nvim/ftplugin
 ln -s -f ~/dot/coc-settings.json ~/.config/nvim/coc-settings.json
