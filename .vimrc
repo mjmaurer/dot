@@ -25,7 +25,6 @@ endif
 
 " ------ style ----------
 set t_Co=256
-colorscheme gruvbox
 syntax on
 set background=dark
 " ----- airline -------
