@@ -17,3 +17,4 @@ ln -s -f ~/dot/ftplugin ~/.vim/ftplugin
 ln -s -f ~/dot/ftplugin ~/.config/nvim/ftplugin
 ln -s -f ~/dot/coc-settings.json ~/.config/nvim/coc-settings.json
 ln -s -f ~/package.json ~/dot/package.json
+ln -s -f ~/dot/vscodeSettings.json ~/.config/Code/User/settings.json
