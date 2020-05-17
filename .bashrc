@@ -43,9 +43,7 @@ alias tnew='tmux new -s'
 alias topen='tmux a -t'
 alias tls='tmux ls'
 # history
-alias hiw='cat ~/dot/win/.bash_history'
-alias hil='cat ~/dot/lin/.bash_history'
-alias hig='cat ~/dot/win/.bash_history_laptop ~/dot/win/.bash_history ~/dot/lin/.bash_history | grep'
+alias hig='cat ~/.bash_history | grep'
 # sourceing
 alias stm='tmux source-file ~/.tmux.conf'
 alias sbrc='source ~/.bashrc'

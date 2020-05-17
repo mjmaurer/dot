@@ -1,3 +1,4 @@
 *.swp
 .virtualenvs/*
-
+win/.bash_history
+lin/.bash_history

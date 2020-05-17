@@ -1,0 +1,16 @@
+This one exmaines ifupdown vs systemd-networkd:
+https://superuser.com/questions/1450668/network-configuration-systemd-networkd-vs-networking-service-and-compatiblity
+
+This one is how to get systemd-networkd up and running
+https://raspberrypi.stackexchange.com/questions/78787/howto-migrate-from-networking-to-systemd-networkd-with-dynamic-failover
+
+https://major.io/2015/10/26/systemd-networkd-and-macvlan-interfaces/
+
+why no rms@eth-
+
+try making gateway start at reserved ips?
+
+somehow creating an interface with address with /24 adds to the routing tabel
+
+maybe try just not  including ip range since we are limiting with compose anyway
+
