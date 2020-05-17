@@ -81,6 +81,20 @@
                 "workbench.action.previousEditor"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "k"
+            ],
+            "commands": ["workbench.action.terminal.focusNext"]
+        },
+        {
+            "before": [
+                "<leader>",
+                "j"
+            ],
+            "commands": ["workbench.action.terminal.focusPrevious"]
+        }
     ],
     "vim.leader": "<space>",
     "[javascript]": {
