@@ -38,6 +38,7 @@ alias etm='nvim ~/.tmux.conf'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias ga='git add --all'
+alias gs='git status'
 # tmux
 alias tnew='tmux new -s'
 alias topen='tmux a -t'
