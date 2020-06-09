@@ -27,13 +27,11 @@ export PS1="\[\e[1;36m\]\w\\$ \[\e[0m\]"
 # quick cd
 alias ccd='cd $HOME/Documents/code'
 
-# edit command
-alias ed='nvim'
 # vim
-alias ebrc='nvim ~/.bashrc'
-alias ep='nvim ~/.profile'
-alias evrc='nvim ~/.vimrc'
-alias etm='nvim ~/.tmux.conf'
+alias ebrc='vim ~/.bashrc'
+alias ep='vim ~/.profile'
+alias evrc='vim ~/.vimrc'
+alias etm='vim ~/.tmux.conf'
 # git
 alias gc='git commit -v'
 alias gca='git commit -v -a'
