@@ -20,7 +20,7 @@ export GOROOT="/usr/local/go"
 PATH="$PATH:$GOPATH/bin:$GOROOT/bin"
 
 # default editor
-export VISUAL=nvim
+export VISUAL=vim
 export EDITOR="$VISUAL"
 
 # if running bash
