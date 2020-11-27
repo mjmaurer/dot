@@ -10,6 +10,13 @@ if [ ! -z "$inwsl" ]; then
     export DISPLAY=:0.0
 fi
 
+export COMP_NAME="unknown computer name"
+if [ -f ~/.bashrc_local ]; then
+    . ~/.bashrc_local
+fi
+
+echo $COMP_NAME
+
 #if [[ $HOSTNAME != *"google"* ]]; then
 #  cd $HOME/Documents/code
 #fi
