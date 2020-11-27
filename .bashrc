@@ -6,9 +6,9 @@ set -o vi
 
 inwsl=$(grep Microsoft /proc/version)
 
-# if [ ! -z "$inwsl" ]; then
-#    cd /mnt/c/Users/mjmau/Documents/code
-# fi
+if [ ! -z "$inwsl" ]; then
+    export DISPLAY=:0.0
+fi
 
 #if [[ $HOSTNAME != *"google"* ]]; then
 #  cd $HOME/Documents/code
