@@ -15,7 +15,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Documents/code/python
 . "/usr/local/bin/virtualenvwrapper.sh"
 
-export GOPATH="$HOME/Documents/code/go"
+export GOPATH="$HOME/go"
 export GOROOT="/usr/local/go"
 PATH="$PATH:$GOPATH/bin:$GOROOT/bin"
 
