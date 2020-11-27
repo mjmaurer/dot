@@ -16,6 +16,9 @@ if [ -f ~/.bashrc_local ]; then
 fi
 
 echo $COMP_NAME
+if [[ $COMP_NAME == *"laptop"* ]]; then
+   cd $HOME/Documents/code
+fi
 
 #if [[ $HOSTNAME != *"google"* ]]; then
 #  cd $HOME/Documents/code
