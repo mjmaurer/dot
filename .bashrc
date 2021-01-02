@@ -10,20 +10,6 @@ if [ ! -z "$inwsl" ]; then
     export DISPLAY=:0.0
 fi
 
-export COMP_NAME="unknown computer name"
-if [ -f ~/.bashrc_local ]; then
-    . ~/.bashrc_local
-fi
-
-echo $COMP_NAME
-if [[ $COMP_NAME == *"laptop"* ]]; then
-   cd $HOME/Documents/code
-fi
-
-#if [[ $HOSTNAME != *"google"* ]]; then
-#  cd $HOME/Documents/code
-#fi
-
 # unbind alt keys
 bind -r '\ei'
 bind -r '\ea'

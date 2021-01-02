@@ -8,6 +8,25 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
+export COMP_NAME="unknown computer name"
+if [ -f ~/.profile_local ]; then
+    . ~/.profile_local
+fi
+
+echo $COMP_NAME
+if [[ $COMP_NAME == *"laptop"* ]]; then
+   cd $HOME/Documents/code
+   export GOPATH="$HOME/Documents/code/go"
+else
+   export GOPATH="$HOME/code/go"
+fi
+export GOROOT="/usr/local/go"
+PATH="$PATH:$GOPATH/bin:$GOROOT/bin"
+
+#if [[ $HOSTNAME != *"google"* ]]; then
+#  cd $HOME/Documents/code
+#fi
+
 PATH="$HOME/Documents/code/refind:$PATH"
 
 # virtualenvwrapper
@@ -15,9 +34,6 @@ export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Documents/code/python
 . "/usr/local/bin/virtualenvwrapper.sh"
 
-export GOPATH="$HOME/go"
-export GOROOT="/usr/local/go"
-PATH="$PATH:$GOPATH/bin:$GOROOT/bin"
 
 # default editor
 export VISUAL=vim
