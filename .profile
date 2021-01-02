@@ -8,7 +8,7 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
-export COMP_NAME="unknown computer name"
+export COMP_NAME="unknown computer name. add .profile_local and export COMP_NAME"
 if [ -f ~/.profile_local ]; then
     . ~/.profile_local
 fi
