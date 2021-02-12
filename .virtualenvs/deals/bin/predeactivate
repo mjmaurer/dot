@@ -1,7 +1,0 @@
-#!/bin/bash
-# This hook is sourced before this virtualenv is deactivated.
-unset GMAIL_USER 
-unset GMAIL_PASS 
-unset GMAIL_TARGET 
-unset PEDALS_ID 
-unset PEDALS_SECRET 
