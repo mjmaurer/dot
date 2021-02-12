@@ -30,9 +30,9 @@ PATH="$PATH:$GOPATH/bin:$GOROOT/bin"
 PATH="$HOME/Documents/code/refind:$PATH"
 
 # virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Documents/code/python
-. "/usr/local/bin/virtualenvwrapper.sh"
+# export WORKON_HOME=$HOME/.virtualenvs
+# export PROJECT_HOME=$HOME/Documents/code/python
+# . "/usr/local/bin/virtualenvwrapper.sh"
 
 
 # default editor
@@ -58,3 +58,5 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 
+
+export PATH="$HOME/.poetry/bin:$PATH"
